@@ -2,7 +2,13 @@
     ViewBag.Title = "Home Page";
 }
 <div class="jumbotron">
-    <b>Project:</b> @System.Web.Configuration.WebConfigurationManager.AppSettings["OctopusProject"]
-    <b>Release:</b> @System.Web.Configuration.WebConfigurationManager.AppSettings["OctopusRelease"]
-    <b>Environment:</b> @System.Web.Configuration.WebConfigurationManager.AppSettings["OctopusEnvironment"]
+    <div>
+        <b>Project:</b> @System.Web.Configuration.WebConfigurationManager.AppSettings["OctopusProject"]
+    </div>
+    <div>
+        <b>Release:</b> @System.Web.Configuration.WebConfigurationManager.AppSettings["OctopusRelease"]
+    </div>
+    <div>
+        <b>Environment:</b> @System.Web.Configuration.WebConfigurationManager.AppSettings["OctopusEnvironment"]
+    </div>
 </div>
